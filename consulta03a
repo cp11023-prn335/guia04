@@ -1,0 +1,5 @@
+SELECT DISTINCT r
+FROM RolCategoria r
+JOIN r.usuarioRolCategoriaList urc
+JOIN urc.usuario u
+WHERE u.username = 'Jhossymar Contreras'
